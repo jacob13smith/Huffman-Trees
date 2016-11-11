@@ -26,7 +26,7 @@ int main( int argc, char *argv[] ) {
         
         fin.close();
     }
-
+    
     CodeTree huff = CodeTree(freq);
     
     huff.printTree();
